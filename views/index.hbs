@@ -1,0 +1,22 @@
+{{> header }}
+
+<ul id="users">
+  {{#each users}}
+
+    <li>
+        <i class="fa fa-user"></i>
+        <span>{{this.name.first}} {{this.name.last}}</span>
+    </li>
+
+  {{/each}}
+</ul>
+
+<form id="search" action="" method="post" class="form-inline">
+    <div class="form-group">
+        <input type="text" class="form-control" id="q" name="q" placeholder="Search...">
+    </div>
+    <button type="submit" class="btn btn-primary">Search users</button>
+</form>
+
+
+{{> footer }}

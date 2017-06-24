@@ -1,0 +1,15 @@
+{
+  "name": "Node.jsSearchAutocomplete",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js search with autocomplete",
+  "author": "Gabriele Romanato <gabriele@gabrieleromanato.com>",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.9.9",
+    "serve-favicon": "^2.4.2"
+  },
+  "license": "MIT"
+}
